@@ -29,7 +29,7 @@ nav a:hover {
     text-decoration: underline;
 }
 .hero {
-    height: 80vh;
+    height: 90vh;
     margin-bottom: 25px;
     background-image: url("../assets/images/kings-bluff-hero2.jpg");
     background-size: cover;
@@ -44,17 +44,19 @@ nav a:hover {
     color: white;
     font-size: 6rem;
     font-weight: 900;
+    text-align: center;
 }
 .form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
     padding: 1rem 0;
 }
 form input {
-    display: block;
-    font-size: 2rem;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 .submit {
     margin-left: auto;
@@ -69,5 +71,33 @@ form input {
     color: #a83a3a;
     border: #a83a3a solid 3px;
     transition: .5s;
-    
+
+}
+h3 {
+    text-align: center;
+    font-size: 3rem;
+}
+.info-section {
+    display: grid;
+    grid-template-columns: 25% 60%;
+    gap: 3rem;
+    padding: 0 3rem;
+}
+
+.info-photo {
+    width: 100%;
+    justify-self: start;
+}
+.info-section figcaption {
+    display: grid;
+    justify-self: start;
+    align-self: center;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(270px, 1fr));
+    gap: 20px;
+}
+.gallery img {
+    width: 100%;
 }

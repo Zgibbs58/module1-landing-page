@@ -8,18 +8,21 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header>
+    <header id="home">
         <h1><a href="#">Kings Bluff</a></h1>
         <nav>
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="">Info</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="">Gallery</a>
+                    <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                    <a href="#form">Form</a>
                 </li>
             </ul>
         </nav>
@@ -28,13 +31,30 @@
         <h2>Kings Bluff Rock Climbing</h2>
     </div>
     <main>
-        <section class="form">
-            <form action="">
-                <input type="text" placeholder="Name"><br>
-                <input type="email" placeholder="Email"><br>
-                <input class="submit" type="submit" value="Submit">
-            </form>
+        <section id="about">
+            <h3>About Kings Bluff</h3>
+            <figure class="info-section">
+                <img class="info-photo" src="./assets/images/clarksville-rock-climbing.jpg" alt="Climbing route at Kings Bluff">
+                <figcaption>
+                    <p>King’s Bluff is a rock-climbing area located in Clarksville, TN. It is managed by a local nonprofit organization called the SCC. This is a great climbing area that is free to visit and has a variety of routes that range in difficulty from 5.3 up to 5.12. The height of climbs also varies greatly, from 30 to 120 feet. There truly is a climb here for everyone. It is free to enter but you must enter a gate code to gain access to the parking lot. You can find the steps to do that by visiting <a href="https://www.seclimbers.org/">https://www.seclimbers.org/</a>.</p>
+                </figcaption>
+            </figure>
         </section>
+        <h3>Gallery</h3>
+        <section id="gallery" class="gallery">
+            <img src="./assets/images/clarksville-rock-climbing2.jpg" alt="Topping out on Kings Bluff route">
+            <img src="./assets/images/clarksville-rock-climbing3.jpg" alt="Lead climbing route at Kings Bluff">
+            <img src="./assets/images/clarksville-rock-climbing4.jpg" alt="Lead climber and belayer on Kings Bluff route">
+            <img src="./assets/images/clarksville-rock-climbing5.jpg" alt="Climber topping out and looking back from top of route">
+            <img src="./assets/images/clarksville-rock-climbing6.jpg" alt="Climber gripping under-cling on lead route">
+            <img src="./assets/images/clarksville-rock-climbing7.jpg" alt="Climber suspended a few feet from ground after falling at the base of climb">
+        </section>
+        <h3>Form</h3>
+        <form id="form" class="form" action="#">
+            <input type="text" placeholder="Name"><br>
+            <input type="email" placeholder="Email"><br>
+            <input class="submit" type="submit" value="Submit">
+        </form>
     </main>
 </body>
 </html>
