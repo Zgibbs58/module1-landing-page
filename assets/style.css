@@ -97,6 +97,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(3, minmax(270px, 1fr));
     gap: 20px;
+    padding: 1rem;
 }
 .gallery img {
     width: 100%;
