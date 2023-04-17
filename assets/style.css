@@ -36,7 +36,7 @@ nav a:hover {
 .hero {
     height: 90vh;
     margin-bottom: 25px;
-    background-image: url("../assets/images/kings-bluff-hero2.jpg");
+    background-image: url("../assets/images/kings-bluff-hero3.jpg");
     background-size: cover;
     background-position: bottom;
     background-color: rgb(129, 129, 129);
@@ -47,7 +47,7 @@ nav a:hover {
 }
 .hero h2 {
     color: white;
-    font-size: 6rem;
+    font-size: 4.5rem;
     font-weight: 900;
     text-align: center;
 }
@@ -81,7 +81,7 @@ h3 {
 }
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, minmax(270px, 1fr));
+    grid-template-columns: repeat(3, minmax(50px, 1fr));
     gap: 20px;
     padding: 1rem;
 }
